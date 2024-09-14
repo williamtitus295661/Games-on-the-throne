@@ -128,7 +128,7 @@ nav {
 
 .main {
     /* height: 100vh; */
-    margin-top: 55px;
+    margin-top: 85px;
     padding-top: var(--nav-size);
     display: grid;
     place-items: center;
