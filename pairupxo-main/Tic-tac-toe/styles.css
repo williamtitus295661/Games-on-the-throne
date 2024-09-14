@@ -7,6 +7,9 @@ body {
     align-items: center;
     height: 100vh;
     background-image:url("night-sky.jpg") ;
+    background-repeat: no-repeat;
+background-size: cover;
+background-position: auto; 
     font-family: 'Poppins', sans-serif;
     color: #fff;
     text-shadow: 
