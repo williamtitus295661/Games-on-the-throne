@@ -1,5 +1,9 @@
 body {
+<<<<<<< HEAD:solitaire-master/css/styles.css
   background-image: url("wood.jpg.JPEG");
+=======
+  background-image: url("solitaire-master/images/concrete.jpg");
+>>>>>>> f88116c06c3bfc24b9a8050e604338259a0e7aeb:solitaire-master/css/style.css
   font-size: 19px;
   color: blue;
   min-width: 300px;
