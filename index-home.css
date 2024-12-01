@@ -19,7 +19,7 @@ body{
        
    
         text-align: center;
-        background-color: rgb(2, 2, 2);
+        background-color: rgb(38, 36, 36);
 
         background-repeat: no-repeat;
         background-size: 275%;
@@ -75,22 +75,37 @@ h1 {
           -1px  1px 0 black,
            1px  1px 0 black; /* Four shadows to create an outline */
        margin-bottom: 80px;
-       margin-top: 80px;
+       margin-top: -375px;
        text-align: center;
    
+}
+h2{
+    font-size: 19px;
+    color:red;
+ 
+    
+        text-shadow: 
+          -1px -1px 0 black,  
+           1px -1px 0 black,
+          -1px  1px 0 black,
+           1px  1px 0 black; /* Four shadows to create an outline */
+       margin-bottom: 18px;
+       margin-top: 50px;
+       text-align: left;
+
 }
 
 
 ul, li {
     text-align: left;
-    color: red;
+    color:blue;
     font: size 20px;
-    color: red;
+    color:blue;
     text-shadow: 
--1px -1px 0 rgb(203, 38, 38),  
-2px -1px 0 rgb(10, 8, 0),
--1px  1px 0 rgb(214, 10, 10),
-2px  1px 0 rgb(140, 55, 6); 
+-1px -1px 0 rgb(255, 255, 255),  
+2px -1px 0 rgb(249, 247, 241),
+-1px  1px 0 rgb(237, 231, 231),
+2px  1px 0 rgb(241, 240, 239); 
 
   
   

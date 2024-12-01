@@ -5,7 +5,7 @@
 body{
 background-image: url("./static/water.jpg");
 background-repeat: no-repeat;
-background-size: cover;
+background-size: 310%;
 background-position: auto; 
 }
 html{
@@ -115,7 +115,14 @@ ul,li{
     width: 55%;
 }
 
-.buttons button{
+.buttons button {
+    background-image:url("./static/water.jpg");
+    color:rgb(12, 12, 11);
+    text-shadow: 
+    -1px -1px 0 rgb(238, 215, 5),  
+     1px -1px 0 rgb(238, 215, 5),
+    -1px  1px 0 rgb(238, 215, 5),
+     1px  1px 0 rgb(238, 215, 5);
     font-size: 2.2rem;
     font-weight: 700;
     font-family: 'Lobster', cursive;

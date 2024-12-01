@@ -1,18 +1,12 @@
-html{
-  background-color: brown;
-}
+
 body {
-<<<<<<< Updated upstream
-  background-color: blue;
-=======
 
 
 
-  background-image: url("solitaire-master/images/concrete.jpg");
->>>>>>> Stashed changes
+  background-image: url("C:\Users\happy\vscode projects\Games-on-the-throne\solitaire-master\css\wood.jpg");
 
   font-size: 19px;
-  color: blue;
+  color: red;
   min-width: 300px;
   font-family: "Creepster", cursive;
 
