@@ -1,14 +1,14 @@
 :root {
     --bg-main: beige;
-    --bg-body:rgb(146, 240, 52);
+    --bg-body:rgb(227, 240, 52);
     --color-txt: rgb(246, 166, 19);
     --filled-color:beige;
     --filled-bg:rgb(132, 226, 226);
 
-    --white: #0a0101;
+    --white: white;
     --red: #b30808;
     --red: #b30808;
-    --black: #000;
+    --white: white;
     
 
     --nav-size: 70px;
@@ -26,8 +26,8 @@
 }
 
 .dark {
-    --bg-main: #07245e;
-    --bg-body: #1a1a2e;
+    --bg-main: #0000fc;
+    --bg-body: white;
     --color-txt: #f70c0c;
     --filled-color: #0000fc;
     --filled-bg: #0bfd80;
@@ -45,6 +45,7 @@ body {
     /* height: 100vh; */
     
     background-color: var(--bg-body);
+    color:aliceblue;
     text-shadow: 
     -1px -1px 0 black,  
      1px -1px 0 black,
@@ -57,14 +58,14 @@ body {
 
 input {
     font-family: "Creepster";
-    border: 2px solid var(--bg-main);
+    border: 2px solid white;
     color: var(--color-txt);
     
 }
 
 input:hover,
 input:focus {
-    border-color: black;
+    border-color:white;
 }
 
 a {
@@ -169,6 +170,12 @@ nav {
     border-radius: var(--border-radius);
     outline: 0;
     background-color: var(--bg-main);
+    color:white;
+    text-shadow: 
+    -1px -1px 0 rgb(253, 250, 250),  
+     1px -1px 0 rgb(252, 246, 246),
+    -1px  1px 0 rgb(249, 246, 246),
+     1px  1px 0 rgb(252, 247, 247);
     padding: 20px;
     font-size: var(--font-size-lg);
     text-align: center;
@@ -190,7 +197,12 @@ nav {
 
 .btn-blue {
     background-color:orangered;
-    color: var(--white);
+    color: white;
+    text-shadow: 
+    -1px -1px 0 rgb(253, 250, 250),  
+     1px -1px 0 rgb(252, 246, 246),
+    -1px  1px 0 rgb(249, 246, 246),
+     1px  1px 0 rgb(252, 247, 247);
 }
 
 .input-err {
@@ -264,7 +276,7 @@ nav {
 }
 
 .dark .main-grid-cell.hover {
-    border: 1px solid var(--blue);
+    border: 1px solid var(--yellow);
 }
 
 .main-grid-cell.err {
