@@ -8,36 +8,47 @@
         flex: 1 1 200px;
     }
 }
-html{
-    background-color:grey;
-}
+
 body{
     
         text-align: center;
         line-height: 1;
+        position: relative;
+        padding: 20px;
+        border-radius: 10px;
        
    
-        text-align: left;
-        background-image: url("f2dcade7-7725-4685-bf02-6b6297c41a25.jpg");
+        text-align: center;
+        background-color: rgb(2, 2, 2);
+
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: 275%;
         background-position: auto; 
-        font: size 30px;
-        color:black;
-        text-shadow: 
-        -1px -1px 0 rgba(252, 247, 247, 0.96),  
-         1px -1px 0 rgb(253, 252, 252),
-        -1px  1px 0 rgb(254, 253, 253),
-         1px  1px 0 rgb(250, 247, 247);
-        /* width: 75%;
-        height: 45%; */
-        /* margin: 0; */
+        
         }
         
-   
+        img {
+            margin-top: 30px;
+            margin-bottom: 50px;
+            width: 100%; /* Adjust the percentage as needed */
+            height: auto; /* Maintains the aspect ratio */
+        }
        
-     
-              
+        footer {
+        
+            margin-top: 50px;
+           
+            position: bottom;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+         
+            color: red;
+           
+            text-align: center;
+            padding: 5px;
+            
+        }
         
      
 
@@ -72,13 +83,32 @@ h1 {
 
 ul, li {
     text-align: left;
-    color:brown;
-    
+    color: red;
+    font: size 20px;
+    color: red;
+    text-shadow: 
+-1px -1px 0 rgb(203, 38, 38),  
+2px -1px 0 rgb(10, 8, 0),
+-1px  1px 0 rgb(214, 10, 10),
+2px  1px 0 rgb(140, 55, 6); 
+
   
   
 }
 
+p{
+    text-align: center;
+    color:red;
 
+   
+ 
+  
+    text-shadow: 
+        -1px -1px 0 rgb(203, 38, 38),  
+         2px -1px 0 rgb(13, 13, 12),
+        -1px  1px 0 rgb(214, 10, 10),
+         2px  1px 0 rgb(230, 89, 7);
+   }
 
 
 
