@@ -9,6 +9,10 @@ background-size: 450%;
 background-position: auto; 
 }
 html{
+background-color: light blue;
+background-repeat: no-repeat;
+background-size: 450%;
+background-position: auto; 
     font-size: 65%;
     /* 10px and default 1rem=16px */
 }
