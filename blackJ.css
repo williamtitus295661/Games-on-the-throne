@@ -10,7 +10,7 @@ background-position: center;
 }
 html{
   
-    background: linear-gradient(to bottom, purple, pink);
+  background-color: rgb(173, 216, 230);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
