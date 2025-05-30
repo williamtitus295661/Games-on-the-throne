@@ -3,12 +3,13 @@
     padding: 0;
 }
 body{
-background-color: light blue;
+background-color: rgb(173, 216, 230);
 background-repeat: no-repeat;
-background-size: 300%;
-background-position: auto; 
+background-size: contain;
+background-position: center; 
 }
 html{
+  
     background-color: purple;
     background-size: 275%;
     font-size: 65%;
