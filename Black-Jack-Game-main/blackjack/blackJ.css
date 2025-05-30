@@ -9,11 +9,11 @@ background-size: contain;
 background-position: center; 
 }
 html{
-background: linear-gradient(to bottom, purple, pink);
+background-color: linear-gradient(to bottom, purple, pink);
 background-repeat: no-repeat;
 background-size: cover;
 
-background-position: auto; 
+background-position: center; 
     font-size: 65%;
     /* 10px and default 1rem=16px */
 }
