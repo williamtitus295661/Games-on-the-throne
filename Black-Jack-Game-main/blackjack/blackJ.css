@@ -11,7 +11,7 @@ background-position: center;
 html{
 height: 100%;
     margin: 0;
-    background: linear-gradient(to bottom, #6a0dad, #8a2be2);
+    background-color: purple;
     background-repeat: no-repeat;
     background-size: cover;
 
