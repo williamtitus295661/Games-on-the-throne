@@ -10,7 +10,11 @@ background-position: center;
 }
 html{
   
-    background-color: purple;
+    background: linear-gradient(to bottom, purple, pink);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    margin: 0;
     background-size: 275%;
     font-size: 65%;
     /* 10px and default 1rem=16px */
