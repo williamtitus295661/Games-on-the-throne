@@ -3,15 +3,15 @@
     padding: 0;
 }
 body{
-background-color: light blue;
+background-image: url('./static/table.jpg');
 background-repeat: no-repeat;
-background-size: 450%;
-background-position: auto; 
+background-size: contain;
+background-position: center; 
 }
 html{
-background-color: light blue;
+background-color: purple;
 background-repeat: no-repeat;
-background-size: 450%;
+background-size: contain;
 background-position: auto; 
     font-size: 65%;
     /* 10px and default 1rem=16px */
