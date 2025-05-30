@@ -15,10 +15,9 @@ height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
 
-background-position: center; 
+    background-position: center; 
     font-size: 65%;
-    height: 100%;
-    margin: 0;
+ 
     /* 10px and default 1rem=16px */
 }
 ul,li{
