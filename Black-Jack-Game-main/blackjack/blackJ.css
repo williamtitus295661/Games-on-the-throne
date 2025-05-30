@@ -5,7 +5,7 @@
 body{
 background-image: url("./static/water.jpg");
 background-repeat: no-repeat;
-background-size: 320%;
+background-size: cover;
 background-position: auto; 
 }
 html{
