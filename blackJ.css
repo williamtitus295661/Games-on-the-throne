@@ -5,11 +5,11 @@
 body{
 background-color: light blue;
 background-repeat: no-repeat;
-background-size: 300%%;
+background-size: 300%;
 background-position: auto; 
 }
 html{
-    background-color: light blue;
+    background-color: purple;
     background-size: 275%;
     font-size: 65%;
     /* 10px and default 1rem=16px */
